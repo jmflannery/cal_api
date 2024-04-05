@@ -40,6 +40,10 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
 
   gem 'dotenv'
+
+  gem "minitest-rails", "~> 7.1.0"
+  gem "factory_bot_rails"
+  gem "faker"
 end
 
 group :development do
@@ -47,3 +51,6 @@ group :development do
   # gem "spring"
 end
 
+group :test do
+  gem "rack-test"
+end

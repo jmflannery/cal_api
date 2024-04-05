@@ -1,0 +1,8 @@
+Description:
+    Generates an API spec
+
+Example:
+    bin/rails generate api_spec nifty_things
+
+    This will create:
+        test/integration/nifty_thing_api_spec.rb
